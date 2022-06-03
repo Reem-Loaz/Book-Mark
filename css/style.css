@@ -1,0 +1,219 @@
+/* Reem Loaz */
+@font-face {
+    font-family:Rubik-Medium;
+    src: url(../fonts/Rubik-Medium.ttf);
+}
+@font-face {
+    font-family:Rubik-Regular;
+    src: url(../fonts/Rubik-Regular.ttf);
+}
+.container{
+    margin: auto;
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.main-heading{
+    padding-top: 5px;
+}
+.fa-bookmark{
+    font-size: 20px;
+    width: 40px;
+    border: 10px;
+    padding: 10px 12px;
+    margin-right: 10px;
+    border-radius: 50px;
+    color: #FFFFFF;
+    background-color: #5267DF;
+}
+.bookmark-logo{
+    width: 150px;
+    padding-right: 0px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.main-items{
+    padding-top: 10px;
+}
+.item{
+    font-family:Rubik-Regular;
+    font-size: 13px;
+    margin-right: 35px;
+}
+.item:hover{
+    color: #9194A2;
+    cursor: pointer;
+}
+.login{
+    font-family: Rubik-Medium;
+    font-size: 13px;
+    border: 20px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #FA5959;
+    padding: 10px 15px;
+}
+.login:hover{
+    color: #FA5959;
+    background-color:#FFFFFF;
+    cursor: pointer;
+}
+
+.main-heading{
+    display: flex;
+    justify-content:space-between;
+    /* margin-right: 500px; */
+}
+.main-txt{
+ padding-top: 50px;
+font-size: 48px;
+font-family: Rubik-Medium;
+color: rgb(36, 42, 69);
+margin-bottom: 15px;
+}
+.sub-txt{
+font-size: 18px;
+font-family:Rubik-Regular ;
+color: #9194A2;
+margin-bottom: 25px;
+line-height: 1.6;
+letter-spacing:none;
+}
+.get-it{
+    border: none;
+    font-size: 14px;
+    font-family: Rubik-Medium;
+    border-radius: 5px;
+    color: #9194A2;
+    background-color: #F7F7F7;
+    padding: 15px 20px;
+    margin-right: 10px;
+}
+.get-it:hover{
+    color: #FFFFFF;
+    background-color: #5267DF;
+    cursor: pointer;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+.anoter-feedback{
+    padding-right: 70px;
+}
+.main-info{
+    font-family: Rubik-Medium;
+    font-size: 32px;
+    color: #242A45;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.sub-info{
+    font-family:Rubik-Regular ;
+    font-size: 18px;
+    color: #9194A2;
+    padding-bottom: 10px;
+    line-height: 1.5;
+}
+.more-info{
+    color: #9194A2;
+    background-color: #F7F7F7;
+    font-family: Rubik-Medium;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+.more-info:hover{
+    color: #FFFFFF;
+    background-color: #5267DF;
+    cursor: pointer;
+}
+.anoter-sub-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.main-footer{
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-family: Rubik-Medium;
+    font-size: 32px;
+    color:rgb(36, 42, 69) ;
+    text-align: center;
+}
+.sub-footer{
+    font-family:Rubik-Regular ;
+    font-size: 18px;
+    color:rgb(145, 148, 162) ;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.extension{
+    border: none;
+    border-radius:5px ;
+    padding: 20px 25px;
+    color: #9194A2;
+    background-color: #F7F7F7;
+    font-family: Rubik-Medium;
+    font-size: 14px;
+}
+.extension:hover{
+    color: #FFFFFF;
+    background-color: #5267DF;
+    cursor: pointer;
+}
+ .server{
+  border:solid #FFFFFF;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 20px 20px;
+    text-align: center;
+} 
+.browser{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+.add{
+    font-family: Rubik-Medium;
+    font-size: 20px;
+    color: #242A45;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.version{
+    font-family:Rubik-Regular ;
+    font-size: 18px;
+    color:rgb(145, 148, 162) ;
+    margin-bottom: 25px;
+}
+.line{
+    border-top: 6px;
+    border-top-style: dotted;
+    margin-bottom: 20px;
+    border-color:rgb(145, 148, 162) ;
+}
+.chrome{
+    padding-top: 20px;
+}
+.firefox{
+    padding-top: 20px; 
+}
+.opera{
+    padding-top: 20px; 
+}
+.my-name{
+    background-color:#242A45; 
+    padding: 20px 20px;
+}
+.name{
+    color:#FFFFFF; 
+    font-size:30px;
+     text-align: center;
+}
